@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370sp"
+    android:layout_height="600sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    android:layout_margin="20sp"
+    app:cardElevation="10sp"
+    app:cardBackgroundColor="@color/red"
+    android:id="@+id/fullcard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="React JS Course"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20sp"
+        android:id="@+id/titletxt"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Just 2.5$"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/pricetxt"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="250sp"
+            android:layout_height="55sp"
+            android:layout_gravity="center"
+            android:background="#ffffff"
+            android:elevation="10sp"
+            android:text="Buy Now"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@color/red"
+            app:cornerRadius="25sp"
+            app:rippleColor="#FFFFFF"
+            android:backgroundTint="#ffffff"
+            app:icon="@drawable/ic_arrow_forward_black_24dp"
+            app:iconSize="20sp"
+            app:iconGravity="textEnd"
+            app:iconTint="@color/red"
+            app:iconPadding="5sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/cardbtn">
+        </com.google.android.material.button.MaterialButton>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+       android:src="@drawable/img1"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="false"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:id="@+id/img"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:layout_marginTop="550sp"
+        android:background="#ffffff"
+        android:rotation="25"
+        android:layout_marginEnd="45sp"
+        android:layout_marginStart="-25sp">
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="LearnCodeOnline.in"
+            android:textSize="15sp"
+            android:textColor="@color/red"
+            android:layout_marginStart="60sp"
+            android:id="@+id/txt"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
